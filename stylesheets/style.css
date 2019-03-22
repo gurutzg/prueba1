@@ -1,0 +1,110 @@
+body{
+  font-family: helvetica, sans-serif;
+}
+main{
+  max-width: 1176px;
+  margin: 0 auto;
+}
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+.header2 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1176px;
+  height: 80px;
+  align-items: center;
+}
+li {
+  display: inline-block;
+  margin: 0 0 0 64px;
+}
+/*header p{
+  margin-left: 64px;
+}*/
+.cuerpo{
+  display: flex;
+}
+.hola{
+  width: 25%;
+}
+.texto1{
+  width: 75%;
+}
+.cuerpo p{
+  margin: 0 auto;
+  font-size: 48px;
+  font-family: Cormorant Garamond Light;
+  margin-top: 200px;
+}
+.proyecto{
+  display:flex;
+  margin-bottom: 120px;
+}
+.wingding{
+  font-family: wingdings;
+  margin-left: 10%;
+}
+.mano{
+  display: flex;
+}
+.wingding2{
+  margin: 0 auto;
+  font-family: Wingdings;
+  font-size: 48px;
+  margin-top: 72px;
+  margin-bottom: 80px;
+  text-decoration: none;
+}
+.texto{
+  /* display: flex; */
+  width: 50%;
+  margin-right: 12px;
+}
+.imgProyecto{
+  width: 50%;
+  margin-left: 12px;
+}
+h3{
+  font-weight: 700;
+  font-size: 28px;
+  width: 100%;
+}
+.infoIzq{
+  display: flex;
+}
+.etiqueta{
+  font-size: 15px;
+  width: 34%;
+}
+.info{
+  width: 66%;
+}
+.descubre{
+  text-decoration: underline red;
+  display: inline-block;
+}
+.descubre:hover{
+  font-weight: 600;
+}
+#proyecto{
+  padding-top: 80px;
+}
+.subir{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+
+}
+.sube{
+  display: flex;
+  /* justify-content: flex-end; */
+  font-family: Wingdings;
+  font-size: 48px;
+    max-width: 1176px;
+  margin: 0 auto;
+}
